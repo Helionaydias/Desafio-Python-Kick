@@ -33,10 +33,5 @@
 #     return False
 # resultado = contar_vogais("Programação")  
 # print(resultado)
-def conta_vogais(string):
-    string = string.lower() # para que a comparação não seja sensível a maiuscula/minuscula
-    vogais = 'aeiou'
-    return sum(string.count(i) for i in vogais)
 
-print(conta_vogais('olaaa'))
   
